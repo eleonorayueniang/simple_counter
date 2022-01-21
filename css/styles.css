@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+* {
+
+}
+body {
+  width: 100%;
+height: 100%;
+  background-image: linear-gradient(to right, #1DE5E2, #B588F7);
+  font-family: sans-serif;
+}
+h2 {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  text-align: center;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  color: black;
+  font-size: 30px;
+}
+#contatore {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background-color: white;
+  opacity: .8;
+  margin-top: 8.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: groove;
+  border-color: black;
+}
+
+#piu, #meno {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 5rem;
+  background:none;
+  border: none;
+}
+#piu:hover, #meno:hover {
+  color: #54A5C4;
+  cursor: pointer;
+}
